@@ -1,0 +1,23 @@
+@media (max-width: 375px) {
+  html {
+    font-size: 53.5%;
+  }
+  body {
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+  .product {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: none;
+
+    height: 90vh;
+    width: 100vw;
+  }
+  .perfume {
+    margin-bottom: 1rem;
+  }
+  .img {
+    border-radius: 1rem 1rem 0 0;
+  }
+}
